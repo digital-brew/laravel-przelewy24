@@ -34,4 +34,14 @@ class Verify extends Response implements IResponse
     {
         return $this->form->getReceiveParameters();
     }
+
+    /**
+     * Get Transaction data received from transfers24.
+     *
+     * @return array
+     */
+    public function getReceiveData():array
+    {
+        return $this->form->getPostData();
+    }
 }

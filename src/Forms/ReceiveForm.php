@@ -25,6 +25,11 @@ class ReceiveForm extends AbstractForm implements Form
         return $this->received_parameters;
     }
 
+    public function getPostData():array
+    {
+        return $this->postData;
+    }
+
     /**
      * @param mixed $received_parameters
      */
