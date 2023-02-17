@@ -6,7 +6,7 @@
         {
           "type": "vcs",
           "url": "git@github.com:tbtmuse/themosis-framework"
-        },
+        }
     ],
     "require": {
         "php": ">=7.1.0",
