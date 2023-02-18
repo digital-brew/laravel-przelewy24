@@ -2,15 +2,9 @@
     "name": "devpark/laravel-przelewy24",
     "description": "Laravel przelewy24.pl integration",
     "type": "library",
-    "repositories": [
-        {
-          "type": "vcs",
-          "url": "git@github.com:tbtmuse/themosis-framework"
-        }
-    ],
     "require": {
         "php": ">=7.1.0",
-        "themosis/framework": "dev-feature/laravel-9",
+        "themosis/framework": "^3.0",
         "guzzlehttp/guzzle": ">=6.3",
         "ramsey/uuid": "^3 || ^4",
         "ext-json": "*"
