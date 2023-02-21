@@ -3,10 +3,10 @@
     "description": "Laravel przelewy24.pl integration",
     "type": "library",
     "require": {
-        "php": ">=7.1.0",
+        "php": "^8.0",
         "themosis/framework": "^3.0",
-        "guzzlehttp/guzzle": ">=6.3",
-        "ramsey/uuid": "^3 || ^4",
+        "guzzlehttp/guzzle": "^7.2",
+        "ramsey/uuid": "^4.1",
         "ext-json": "*"
     },
     "autoload": {
