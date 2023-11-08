@@ -2,9 +2,15 @@
     "name": "devpark/laravel-przelewy24",
     "description": "Laravel przelewy24.pl integration",
     "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:AmphiBee/framework"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "themosis/framework": "^3.0",
+        "themosis/framework": "^4.0",
         "guzzlehttp/guzzle": "^7.2",
         "ramsey/uuid": "^4.1",
         "ext-json": "*"
@@ -21,7 +27,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.1",
-        "phpunit/phpunit": "^5.6",
+        "phpunit/phpunit": "^9.5.1",
         "mockery/mockery": "^0.9.6"
     },
     "license": "MIT",
@@ -36,5 +42,10 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
